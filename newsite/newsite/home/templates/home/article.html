@@ -1,0 +1,10 @@
+{% extends "home/base.html" %}
+{% block content %}
+
+<h1>{{ post.title }}</h1>
+<small>By: {{ post.author }}</small>
+<hr>
+</br>
+
+{{ post.text }}
+{% endblock %}
